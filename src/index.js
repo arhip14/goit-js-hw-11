@@ -3,11 +3,9 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
 const form = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
-
 const API_KEY = '38252879-889a9619e4dc8706c4a00f455';
 const BASE_URL = 'https://pixabay.com/api/';
 const ITEMS_PER_PAGE = 40;
